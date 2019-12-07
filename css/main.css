@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+    width: auto !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+html::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-m {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
