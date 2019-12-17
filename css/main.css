@@ -1,3 +1,629 @@
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-ms-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes swipe-1 {
+    0%,
+    33% {
+        visibility: visible
+    }
+    34%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-moz-keyframes swipe-1 {
+    0%,
+    33% {
+        visibility: visible
+    }
+    34%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-ms-keyframes swipe-1 {
+    0%,
+    33% {
+        visibility: visible
+    }
+    34%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-o-keyframes swipe-1 {
+    0%,
+    33% {
+        visibility: visible
+    }
+    34%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@keyframes swipe-1 {
+    0%,
+    33% {
+        visibility: visible
+    }
+    34%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-webkit-keyframes swipe-2 {
+    0%,
+    33% {
+        visibility: hidden
+    }
+    34%,
+    66% {
+        visibility: visible
+    }
+    67%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-moz-keyframes swipe-2 {
+    0%,
+    33% {
+        visibility: hidden
+    }
+    34%,
+    66% {
+        visibility: visible
+    }
+    67%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-ms-keyframes swipe-2 {
+    0%,
+    33% {
+        visibility: hidden
+    }
+    34%,
+    66% {
+        visibility: visible
+    }
+    67%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-o-keyframes swipe-2 {
+    0%,
+    33% {
+        visibility: hidden
+    }
+    34%,
+    66% {
+        visibility: visible
+    }
+    67%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@keyframes swipe-2 {
+    0%,
+    33% {
+        visibility: hidden
+    }
+    34%,
+    66% {
+        visibility: visible
+    }
+    67%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-webkit-keyframes swipe-3 {
+    0%,
+    65% {
+        visibility: hidden
+    }
+    66% {
+        visibility: hidden
+    }
+    67%,
+    100% {
+        visibility: visible
+    }
+}
+
+@-moz-keyframes swipe-3 {
+    0%,
+    65% {
+        visibility: hidden
+    }
+    66% {
+        visibility: hidden
+    }
+    67%,
+    100% {
+        visibility: visible
+    }
+}
+
+@-ms-keyframes swipe-3 {
+    0%,
+    65% {
+        visibility: hidden
+    }
+    66% {
+        visibility: hidden
+    }
+    67%,
+    100% {
+        visibility: visible
+    }
+}
+
+@-o-keyframes swipe-3 {
+    0%,
+    65% {
+        visibility: hidden
+    }
+    66% {
+        visibility: hidden
+    }
+    67%,
+    100% {
+        visibility: visible
+    }
+}
+
+@keyframes swipe-3 {
+    0%,
+    65% {
+        visibility: hidden
+    }
+    66% {
+        visibility: hidden
+    }
+    67%,
+    100% {
+        visibility: visible
+    }
+}
+
+/* @-webkit-keyframes swipe-4 {
+    0%,
+    76% {
+        visibility: hidden
+    }
+    77%,
+    78% {
+        visibility: visible
+    }
+    79%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-moz-keyframes swipe-4 {
+    0%,
+    76% {
+        visibility: hidden
+    }
+    77%,
+    78% {
+        visibility: visible
+    }
+    79%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-ms-keyframes swipe-4 {
+    0%,
+    76% {
+        visibility: hidden
+    }
+    77%,
+    78% {
+        visibility: visible
+    }
+    79%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-o-keyframes swipe-4 {
+    0%,
+    76% {
+        visibility: hidden
+    }
+    77%,
+    78% {
+        visibility: visible
+    }
+    79%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@keyframes swipe-4 {
+    0%,
+    76% {
+        visibility: hidden
+    }
+    77%,
+    78% {
+        visibility: visible
+    }
+    79%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-webkit-keyframes swipe-5 {
+    0%,
+    78% {
+        visibility: hidden
+    }
+    79%,
+    87% {
+        visibility: visible
+    }
+    88%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-moz-keyframes swipe-5 {
+    0%,
+    78% {
+        visibility: hidden
+    }
+    79%,
+    87% {
+        visibility: visible
+    }
+    88%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-ms-keyframes swipe-5 {
+    0%,
+    78% {
+        visibility: hidden
+    }
+    79%,
+    87% {
+        visibility: visible
+    }
+    88%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-o-keyframes swipe-5 {
+    0%,
+    78% {
+        visibility: hidden
+    }
+    79%,
+    87% {
+        visibility: visible
+    }
+    88%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@keyframes swipe-5 {
+    0%,
+    78% {
+        visibility: hidden
+    }
+    79%,
+    87% {
+        visibility: visible
+    }
+    88%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-webkit-keyframes swipe-6 {
+    0%,
+    87% {
+        visibility: hidden
+    }
+    88%,
+    96% {
+        visibility: visible
+    }
+    97%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-moz-keyframes swipe-6 {
+    0%,
+    87% {
+        visibility: hidden
+    }
+    88%,
+    96% {
+        visibility: visible
+    }
+    97%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-ms-keyframes swipe-6 {
+    0%,
+    87% {
+        visibility: hidden
+    }
+    88%,
+    96% {
+        visibility: visible
+    }
+    97%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-o-keyframes swipe-6 {
+    0%,
+    87% {
+        visibility: hidden
+    }
+    88%,
+    96% {
+        visibility: visible
+    }
+    97%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@keyframes swipe-6 {
+    0%,
+    87% {
+        visibility: hidden
+    }
+    88%,
+    96% {
+        visibility: visible
+    }
+    97%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-webkit-keyframes swipe-7 {
+    0%,
+    97% {
+        visibility: hidden
+    }
+    98% {
+        visibility: visible
+    }
+    99%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-moz-keyframes swipe-7 {
+    0%,
+    97% {
+        visibility: hidden
+    }
+    98% {
+        visibility: visible
+    }
+    99%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-ms-keyframes swipe-7 {
+    0%,
+    97% {
+        visibility: hidden
+    }
+    98% {
+        visibility: visible
+    }
+    99%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-o-keyframes swipe-7 {
+    0%,
+    97% {
+        visibility: hidden
+    }
+    98% {
+        visibility: visible
+    }
+    99%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@keyframes swipe-7 {
+    0%,
+    97% {
+        visibility: hidden
+    }
+    98% {
+        visibility: visible
+    }
+    99%,
+    100% {
+        visibility: hidden
+    }
+}
+
+@-webkit-keyframes swipe-8 {
+    0%,
+    98% {
+        visibility: hidden
+    }
+    99%,
+    100% {
+        visibility: visible
+    }
+}
+
+@-moz-keyframes swipe-8 {
+    0%,
+    98% {
+        visibility: hidden
+    }
+    99%,
+    100% {
+        visibility: visible
+    }
+}
+
+@-ms-keyframes swipe-8 {
+    0%,
+    98% {
+        visibility: hidden
+    }
+    99%,
+    100% {
+        visibility: visible
+    }
+}
+
+@-o-keyframes swipe-8 {
+    0%,
+    98% {
+        visibility: hidden
+    }
+    99%,
+    100% {
+        visibility: visible
+    }
+}
+
+@keyframes swipe-8 {
+    0%,
+    98% {
+        visibility: hidden
+    }
+    99%,
+    100% {
+        visibility: visible
+    }
+} */
+
 * {
     margin: 0;
     padding: 0;
@@ -179,6 +805,17 @@ a.faded:hover {
     float: left;
 }
 
+#zgrada2 {
+    width: 625px;
+    margin-top: -37.26vw;
+    margin-left: 59.2vw;
+}
+
+#zgrada2 img {
+    position: fix;
+    margin-bottom: 0px;
+}
+
 .home__figure__clouds {
     position: absolute;
     top: 0;
@@ -195,7 +832,7 @@ a.faded:hover {
 .kids__swipe {
     position: relative;
     width: 100vw;
-    margin-top: 1800px;
+    margin-top: 0px;
     /* bottom: 20%; */
     /* right: 26.25% */
 }
@@ -227,7 +864,7 @@ a.faded:hover {
     animation: swipe-3 4s infinite
 }
 
-.kids__swipe .frame--4 {
+/* .kids__swipe .frame--4 {
     -webkit-animation: swipe-4 4s infinite;
     -o-animation: swipe-4 4s infinite;
     animation: swipe-4 4s infinite
@@ -255,7 +892,7 @@ a.faded:hover {
     -webkit-animation: swipe-8 4s infinite;
     -o-animation: swipe-8 4s infinite;
     animation: swipe-8 4s infinite
-}
+} */
 
 .bike {
     position: absolute
