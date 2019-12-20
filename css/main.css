@@ -704,6 +704,10 @@ section {
     float: left;
 }
 
+.main {
+    width: 100vw;
+}
+
 .post__figure {
     cursor: zoom-in;
     position: relative;
@@ -929,4 +933,47 @@ a.faded:hover {
     margin-top: -3px;
     margin-left: -1.5px;
     line-height: 0;
+}
+
+.aboutus,
+.howwework,
+.whatweworkon,
+.howwedecide,
+.team {
+    margin-top: 2.1vw;
+    height: 3vh;
+    position: absolute;
+}
+
+.aboutus {
+    width: 5.3vw;
+    margin-left: 41.7vw;
+}
+
+.howwework {
+    width: 7.9vw;
+    margin-left: 48.4vw;
+}
+
+.whatweworkon {
+    width: 10.2vw;
+    margin-left: 57.7vw;
+}
+
+.howwedecide {
+    width: 8.5vw;
+    margin-left: 69.2vw;
+}
+
+.team {
+    width: 3vw;
+    margin-left: 88vw;
+}
+
+.thebank {
+    margin-top: 3.4vw;
+    margin-left: 4.2vw;
+    position: absolute;
+    width: 9.7vw;
+    height: 3.9vh;
 }

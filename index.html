@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>We Believe</title>
-    <link rel="stylesheet" href="css/main.css?2" />
+    <link rel="stylesheet" href="css/main.css?3" />
     <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,8 +16,14 @@
       ga('send', 'pageview');
     </script>
   </head>
-  <body>
-    <article class="home">
+  <body> 
+    <a href=""><div class="thebank"></div></a>
+    <a href="#" onclick="showHide('aboutus')"><div class="aboutus"></div></a>
+    <a href="#" onclick="showHide('howwework')"><div class="howwework"></div></a>
+    <a href="#" onclick="showHide('whatweworkon')"><div class="whatweworkon"></div></a>
+    <a href="#" onclick="showHide('howwedecide')"><div class="howwedecide"></div></a>
+    <a href="#" onclick="showHide('team')"><div class="team"></div></a>
+    <article class="home" id="anime">
       <div class="first">
       <section class="consumer">
         <figure class="home__figure">
@@ -155,7 +161,44 @@
         </div>
       </div>
     </article>
-    <script src="js/main.js?2"></script>
-    <script src="js/images.js?2"></script>
+    <section class="main">
+      <div id="aboutus">
+        <picture>
+          <source media="(min-width: 1450px)" srcset="img/aboutus.png">
+          <source media="(min-width: 1024px)" srcset="img/aboutus.png">
+          <img src="img/aboutus.png" style="width: 100vw; height: 99.62vh;">
+        </picture>
+      </div>
+      <div id="howwework">
+        <picture>
+          <source media="(min-width: 1450px)" srcset="img/howwework.png">
+          <source media="(min-width: 1024px)" srcset="img/howwework.png">
+          <img src="img/howwework.png" style="width: 100vw; height: 99.62vh;">
+        </picture>
+      </div>
+      <div id="whatweworkon">
+        <picture>
+          <source media="(min-width: 1450px)" srcset="img/whatweworkon.png">
+          <source media="(min-width: 1024px)" srcset="img/whatweworkon.png">
+          <img src="img/whatweworkon.png" style="width: 100vw; height: 99.62vh;">
+        </picture>
+      </div>
+      <div id="howwedecide">
+        <picture>
+          <source media="(min-width: 1450px)" srcset="img/howwedecide.png">
+          <source media="(min-width: 1024px)" srcset="img/howwedecide.png">
+          <img src="img/howwedecide.png" style="width: 100vw; height: 99.62vh;">
+        </picture>
+      </div>
+      <div id="team">
+        <picture>
+          <source media="(min-width: 1450px)" srcset="img/team.png">
+          <source media="(min-width: 1024px)" srcset="img/team.png">
+          <img src="img/team.png" style="width: 100vw; height: 99.62vh;">
+        </picture>
+      </div>
+    </section>
+    <script src="js/main.js?3"></script>
+    <script src="js/images.js?3"></script>
   </body>
 </html>

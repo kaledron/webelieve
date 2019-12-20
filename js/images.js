@@ -1,3 +1,18 @@
+var showableArr = {'anime':'block', 'aboutus':'none', 'howwework':'none', 'whatweworkon':'none', 'howwedecide':'none', 'team':'none'};
+for (i in showableArr) {
+    document.getElementById(i).style.display = showableArr[i];
+}
+
+function showHide(div_section) {
+    console.log(div_section);
+    for (i in showableArr) {
+        document.getElementById(i).style.display = 'none';
+        if (i == div_section) {
+            document.getElementById(i).style.display = 'block';
+        }
+    }
+}
+
 var anime3 = document.getElementById('anime3');
 var anime4 = document.getElementById('anime4');
 var anime5 = document.getElementById('anime5');
@@ -48,10 +63,14 @@ function generatePictureCode(val, elem) {
 }
 
 window.addEventListener('scroll', function() {
-    console.log(window.scrollY);
     anime3.innerHTML = getSrc3(window.scrollY, "anime3");
     anime4.innerHTML = getSrc4(window.scrollY, "anime4");
     anime5.innerHTML = getSrc5(window.scrollY, "anime5");
     anime6.innerHTML = getSrc6(window.scrollY, "anime6");
     anime7.innerHTML = getSrc7(window.scrollY, "anime7");
 });
+
+// window.addEventListener('click', function(e) {
+//     menuName = e.srcElement.className;
+//     console.log(menuName);
+// })
