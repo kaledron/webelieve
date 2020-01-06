@@ -810,9 +810,10 @@ a.faded:hover {
 }
 
 .others {
-    height: 1800px;
+    height: 1300px;
     width: 100vw;
     float: left;
+    margin-top: 0.17vw;
 }
 
 #zgrada2 {
