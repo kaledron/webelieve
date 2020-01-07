@@ -4,7 +4,6 @@ for (i in showableArr) {
 }
 
 function showHide(div_section) {
-    console.log(div_section);
     for (i in showableArr) {
         document.getElementById(i).style.display = 'none';
         if (i == div_section) {
@@ -19,29 +18,6 @@ var anime4 = document.getElementById('anime4');
 var anime5 = document.getElementById('anime5');
 var anime6 = document.getElementById('anime6');
 var anime7 = document.getElementById('anime7');
-
-function getSrc2o(scrollPos, elem) {
-    if (scrollPos < 1500) return generatePictureCode(1, elem);
-    if (scrollPos < 1525) return generatePictureCode(2, elem);
-    if (scrollPos < 1550) return generatePictureCode(3, elem);
-    if (scrollPos < 1575) return generatePictureCode(4, elem);
-    if (scrollPos < 1600) return generatePictureCode(5, elem);
-    if (scrollPos < 1625) return generatePictureCode(6, elem);
-    if (scrollPos < 1650) return generatePictureCode(7, elem);
-    if (scrollPos < 1675) return generatePictureCode(8, elem);
-    if (scrollPos < 1700) return generatePictureCode(9, elem);
-    if (scrollPos < 1725) return generatePictureCode(10, elem);
-    if (scrollPos < 1750) return generatePictureCode(9, elem);
-    if (scrollPos < 1775) return generatePictureCode(8, elem);
-    if (scrollPos < 1800) return generatePictureCode(7, elem);
-    if (scrollPos < 1825) return generatePictureCode(6, elem);
-    if (scrollPos < 1850) return generatePictureCode(5, elem);
-    if (scrollPos < 1875) return generatePictureCode(4, elem);
-    if (scrollPos < 1900) return generatePictureCode(3, elem);
-    if (scrollPos < 1925) return generatePictureCode(2, elem);
-    if (scrollPos < 1950) return generatePictureCode(1, elem);
-    if (scrollPos > 1950) return generatePictureCode(1, elem);
-}
 
 function getSrc2(scrollPos, elem) {
     if (scrollPos < 1450) return generatePictureCode(1, elem);
@@ -81,29 +57,37 @@ function getSrc4(scrollPos, elem) {
 }
 
 function getSrc5(scrollPos, elem) {
-    if (scrollPos < 5700) return generatePictureCode(1, elem);
-    if (scrollPos < 5850) return generatePictureCode(2, elem);
-    if (scrollPos < 6000) return generatePictureCode(3, elem);
-    if (scrollPos < 6150) return generatePictureCode(4, elem);
-    if (scrollPos > 6150) return generatePictureCode(4, elem);
+    if (scrollPos < 5400) return generatePictureCode(1, elem);
+    if (scrollPos < 5500) return generatePictureCode(2, elem);
+    if (scrollPos < 5600) return generatePictureCode(3, elem);
+    if (scrollPos < 5700) return generatePictureCode(4, elem);
+    if (scrollPos < 5800) return generatePictureCode(5, elem);
+    if (scrollPos < 5900) return generatePictureCode(6, elem);
+    if (scrollPos > 5900) return generatePictureCode(6, elem);
 }
 
 function getSrc6(scrollPos, elem) {
-    if (scrollPos < 7500) return generatePictureCode(1, elem);
-    if (scrollPos < 7580) return generatePictureCode(2, elem);
-    if (scrollPos < 7660) return generatePictureCode(3, elem);
-    if (scrollPos < 7720) return generatePictureCode(4, elem);
-    if (scrollPos > 7720) return generatePictureCode(4, elem);
+    if (scrollPos < 6650) return generatePictureCode(1, elem);
+    if (scrollPos < 6750) return generatePictureCode(2, elem);
+    if (scrollPos < 6850) return generatePictureCode(3, elem);
+    if (scrollPos < 6950) return generatePictureCode(4, elem);
+    if (scrollPos < 7050) return generatePictureCode(5, elem);
+    if (scrollPos < 7150) return generatePictureCode(6, elem);
+    if (scrollPos > 7150) return generatePictureCode(6, elem);
 }
 
 function getSrc7(scrollPos, elem) {
-    if (scrollPos < 9250) return generatePictureCode(1, elem);
-    if (scrollPos < 9320) return generatePictureCode(2, elem);
-    if (scrollPos < 9390) return generatePictureCode(3, elem);
-    if (scrollPos < 9460) return generatePictureCode(4, elem);
-    if (scrollPos < 9530) return generatePictureCode(5, elem);
-    if (scrollPos < 9600) return generatePictureCode(6, elem);
-    if (scrollPos > 9600) return generatePictureCode(6, elem);
+    if (scrollPos < 7650) return generatePictureCode(1, elem);
+    if (scrollPos < 7700) return generatePictureCode(2, elem);
+    if (scrollPos < 7750) return generatePictureCode(3, elem);
+    if (scrollPos < 7800) return generatePictureCode(4, elem);
+    if (scrollPos < 7850) return generatePictureCode(5, elem);
+    if (scrollPos < 7900) return generatePictureCode(6, elem);
+    if (scrollPos < 7950) return generatePictureCode(7, elem);
+    if (scrollPos < 8000) return generatePictureCode(8, elem);
+    if (scrollPos < 8050) return generatePictureCode(9, elem);
+    if (scrollPos < 8100) return generatePictureCode(10, elem);
+    if (scrollPos > 8150) return generatePictureCode(11, elem);
 }
 
 function generatePictureCode(val, elem) {
@@ -111,7 +95,6 @@ function generatePictureCode(val, elem) {
 }
 
 window.addEventListener('scroll', function() {
-    console.log(window.scrollY);
     setTimeout(function(){  
         anime2.innerHTML = getSrc2(window.scrollY, "anime2");
         anime3.innerHTML = getSrc3(window.scrollY, "anime3");
