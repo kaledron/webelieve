@@ -2,6 +2,22 @@ var showableArr = {'anime':'block', 'aboutus':'none', 'howwework':'none', 'whatw
 for (i in showableArr) {
     document.getElementById(i).style.display = showableArr[i];
 }
+var imgArr = [
+    'anime2-1.png', 'anime2-2.png', 'anime2-3.png', 'anime2-4.png', 'anime2-5.png', 'anime2-6.png', 'anime2-7.png', 'anime2-8.png', 'anime2-9.png', 'anime2-10.png',
+    'anime3-1.png', 'anime3-2.png', 'anime3-3.png', 'anime3-4.png', 'anime3-5.png', 'anime3-6.png', 'anime3-7.png', 
+    'anime4-1.png', 'anime4-2.png', 'anime4-3.png', 'anime4-4.png', 'anime4-5.png', 'anime4-6.png', 'anime4-7.png', 'anime4-8.png', 'anime4-9.png', 'anime4-10.png',
+       'anime4-11.png', 'anime4-12.png', 'anime4-13.png', 
+    'anime5-1.png', 'anime5-2.png', 'anime5-3.png', 'anime5-4.png', 'anime5-5.png', 'anime5-6.png', 'anime5-7.png', 
+    'anime6-1.png', 'anime6-2.png', 'anime6-3.png', 'anime6-4.png', 'anime6-5.png', 'anime6-6.png', 'anime6-7.png', 'anime6-8.png', 'anime6-9.png', 'anime6-10.png',
+       'anime6-11.png', 'anime6-12.png',  
+    'anime7-1.png', 'anime7-2.png', 'anime7-3.png', 'anime7-4.png', 'anime7-5.png', 'anime7-6.png', 'anime7-7.png', 'anime7-8.png', 'anime7-9.png', 'anime7-10.png',
+       'anime7-11.png', 'anime7-12.png',  
+];
+
+for (var i = 0; i < imgArr.length; i++) {
+    var img = new Image();
+    img.src = 'img/' + imgArr[i];
+}
 
 function showHide(div_section) {
     for (i in showableArr) {
@@ -108,7 +124,6 @@ function generatePictureCode(val, elem) {
 }
 
 window.addEventListener('scroll', function() {
-    console.log(window.scrollY);
     setTimeout(function(){  
         anime2.innerHTML = getSrc2(window.scrollY, "anime2");
         anime3.innerHTML = getSrc3(window.scrollY, "anime3");
