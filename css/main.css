@@ -279,357 +279,6 @@
     }
 }
 
-/*
-@-webkit-keyframes swipe-4 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-moz-keyframes swipe-4 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-ms-keyframes swipe-4 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-o-keyframes swipe-4 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@keyframes swipe-4 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-webkit-keyframes swipe-5 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-moz-keyframes swipe-5 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-ms-keyframes swipe-5 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-o-keyframes swipe-5 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@keyframes swipe-5 {
-    0%,
-    33% {
-        visibility: hidden
-    }
-    34%,
-    66% {
-        visibility: visible
-    }
-    67%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-webkit-keyframes swipe-6 {
-    0%,
-    87% {
-        visibility: hidden
-    }
-    88%,
-    96% {
-        visibility: visible
-    }
-    97%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-moz-keyframes swipe-6 {
-    0%,
-    87% {
-        visibility: hidden
-    }
-    88%,
-    96% {
-        visibility: visible
-    }
-    97%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-ms-keyframes swipe-6 {
-    0%,
-    87% {
-        visibility: hidden
-    }
-    88%,
-    96% {
-        visibility: visible
-    }
-    97%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-o-keyframes swipe-6 {
-    0%,
-    87% {
-        visibility: hidden
-    }
-    88%,
-    96% {
-        visibility: visible
-    }
-    97%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@keyframes swipe-6 {
-    0%,
-    87% {
-        visibility: hidden
-    }
-    88%,
-    96% {
-        visibility: visible
-    }
-    97%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-webkit-keyframes swipe-7 {
-    0%,
-    97% {
-        visibility: hidden
-    }
-    98% {
-        visibility: visible
-    }
-    99%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-moz-keyframes swipe-7 {
-    0%,
-    97% {
-        visibility: hidden
-    }
-    98% {
-        visibility: visible
-    }
-    99%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-ms-keyframes swipe-7 {
-    0%,
-    97% {
-        visibility: hidden
-    }
-    98% {
-        visibility: visible
-    }
-    99%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-o-keyframes swipe-7 {
-    0%,
-    97% {
-        visibility: hidden
-    }
-    98% {
-        visibility: visible
-    }
-    99%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@keyframes swipe-7 {
-    0%,
-    97% {
-        visibility: hidden
-    }
-    98% {
-        visibility: visible
-    }
-    99%,
-    100% {
-        visibility: hidden
-    }
-}
-
-@-webkit-keyframes swipe-8 {
-    0%,
-    98% {
-        visibility: hidden
-    }
-    99%,
-    100% {
-        visibility: visible
-    }
-}
-
-@-moz-keyframes swipe-8 {
-    0%,
-    98% {
-        visibility: hidden
-    }
-    99%,
-    100% {
-        visibility: visible
-    }
-}
-
-@-ms-keyframes swipe-8 {
-    0%,
-    98% {
-        visibility: hidden
-    }
-    99%,
-    100% {
-        visibility: visible
-    }
-}
-
-@-o-keyframes swipe-8 {
-    0%,
-    98% {
-        visibility: hidden
-    }
-    99%,
-    100% {
-        visibility: visible
-    }
-}
-
-@keyframes swipe-8 {
-    0%,
-    98% {
-        visibility: hidden
-    }
-    99%,
-    100% {
-        visibility: visible
-    }
-} */
-
 * {
     margin: 0;
     padding: 0;
@@ -669,30 +318,6 @@ html::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
-
-/* .figure {
-    position: absolute;
-    display: block;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    padding-top: 100%
-}
-
-picture {
-    display: block;
-    border: 0;
-    -webkit-transition: all 150ms;
-    -o-transition: all 150ms;
-    transition: all 150ms;
-}
-
-.main {
-    width: 100vw;
-    background-repeat: repeat-y;
-    background-size: cover;
-    position: relative;
-} */
 
 .js-graphic {
     -webkit-transition: all 350ms;
@@ -809,6 +434,75 @@ a.faded:hover {
     float: left;
 }
 
+.anime-div {
+    position: relative;
+    line-height: 0;
+}
+
+.image-bg {
+    position: relative;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+#anime2 {
+    position: absolute;
+    width: 100vw;
+    margin-top: -70vw;
+    margin-left: -0.13101vw;
+    border: 0;
+}
+
+#anime3 {
+    position: absolute;
+    width: 100vw;
+    margin-top: -67.53vw;
+    margin-left: -0.13vw;
+    border: 0;
+}
+
+#anime4 {
+    position: absolute;
+    width: 100vw;
+    margin-top: -67.64vw;
+    /* margin-left: -0.13vw; */
+    border: 0;
+}
+
+#anime5 {
+    position: absolute;
+    width: 100vw;
+    margin-top: -67.64vw;
+    margin-left: -0.13vw;
+    border: 0;
+}
+
+.anime6-div {
+    /* margin-left: -0.25vw; */
+}
+
+#anime6 {
+    position: absolute;
+    width: 100vw;
+    margin-top: -67.64vw;
+    /* margin-left: -0.13vw; */
+    border: 0;
+}
+
+.anime7-div {
+    /* margin-left: -0.2vw; */
+}
+
+#anime7 {
+    position: absolute;
+    width: 100vw;
+    margin-top: -63vw;
+    margin-left: -0.13vw;
+    border: 0;
+}
+
 .others {
     height: 1300px;
     width: 100vw;
@@ -887,37 +581,6 @@ a.faded:hover {
     animation: swipe-3 4s infinite
 }
 
-/* .kids__swipe .frame--4 {
-    -webkit-animation: swipe-4 4s infinite;
-    -o-animation: swipe-4 4s infinite;
-    animation: swipe-4 4s infinite
-}
-
-.kids__swipe .frame--5 {
-    -webkit-animation: swipe-5 4s infinite;
-    -o-animation: swipe-5 4s infinite;
-    animation: swipe-5 4s infinite
-} */
-
-/* 
-.kids__swipe .frame--6 {
-    -webkit-animation: swipe-6 4s infinite;
-    -o-animation: swipe-6 4s infinite;
-    animation: swipe-6 4s infinite
-}
-
-.kids__swipe .frame--7 {
-    -webkit-animation: swipe-7 4s infinite;
-    -o-animation: swipe-7 4s infinite;
-    animation: swipe-7 4s infinite
-}
-
-.kids__swipe .frame--8 {
-    -webkit-animation: swipe-8 4s infinite;
-    -o-animation: swipe-8 4s infinite;
-    animation: swipe-8 4s infinite
-} */
-
 .bike {
     position: absolute
 }
@@ -931,22 +594,20 @@ a.faded:hover {
 .bike .frame--1 {
     visibility: visible
 }
-
+/* 
 #anime3 {
-    /* position: absolute; */
     width: 100vw;
     transition-duration: 0.7s;
     transition-timing-function: ease-in;
     transition-delay: 0.3s;
-    /* animation-timing-function: ease-in-out; */
-}
+} */
 
-#anime4,
+/* #anime4,
 #anime5 {
     margin-top: -3px;
     margin-left: -1.5px;
     line-height: 0;
-}
+} */
 
 .aboutus,
 .howwework,
