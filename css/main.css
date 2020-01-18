@@ -439,60 +439,40 @@ a.faded:hover {
     line-height: 0;
 }
 
-.image-bg {
-    position: relative;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    border: 0;
-}
-
 #anime2 {
     position: absolute;
     width: 100vw;
-    margin-top: -70vw;
-    margin-left: -0.13101vw;
+    margin-top: -409.1vw;
+    margin-left: -0.13102213vw;
     border: 0;
 }
 
 #anime3 {
     position: absolute;
     width: 100vw;
-    margin-top: -67.53vw;
-    margin-left: -0.13vw;
+    margin-top: -338.55vw;
     border: 0;
 }
 
 #anime4 {
     position: absolute;
     width: 100vw;
-    margin-top: -67.64vw;
-    /* margin-left: -0.13vw; */
+    margin-top: -271.06vw;
     border: 0;
 }
 
 #anime5 {
     position: absolute;
     width: 100vw;
-    margin-top: -67.64vw;
-    margin-left: -0.13vw;
+    margin-top: -203.3vw;
     border: 0;
-}
-
-.anime6-div {
-    /* margin-left: -0.25vw; */
 }
 
 #anime6 {
     position: absolute;
     width: 100vw;
-    margin-top: -67.64vw;
-    /* margin-left: -0.13vw; */
+    margin-top: -135.7vw;
     border: 0;
-}
-
-.anime7-div {
-    /* margin-left: -0.2vw; */
 }
 
 #anime7 {
@@ -503,34 +483,9 @@ a.faded:hover {
     border: 0;
 }
 
-.others {
-    height: 1300px;
+.space {
     width: 100vw;
-    float: left;
-    margin-top: 0.17vw;
-}
-
-.others6 {
-    height: 1300px;
-    width: 100vw;
-    float: left;
-}
-
-.others7 {
-    height: 1300px;
-    width: 100vw;
-    float: left;
-}
-
-#zgrada2 {
-    width: 625px;
-    margin-top: -37.26vw;
-    margin-left: 59.2vw;
-}
-
-#zgrada2 img {
-    position: fix;
-    margin-bottom: 0px;
+    height: 20vw;
 }
 
 .home__figure__clouds {
@@ -594,20 +549,6 @@ a.faded:hover {
 .bike .frame--1 {
     visibility: visible
 }
-/* 
-#anime3 {
-    width: 100vw;
-    transition-duration: 0.7s;
-    transition-timing-function: ease-in;
-    transition-delay: 0.3s;
-} */
-
-/* #anime4,
-#anime5 {
-    margin-top: -3px;
-    margin-left: -1.5px;
-    line-height: 0;
-} */
 
 .aboutus,
 .howwework,
