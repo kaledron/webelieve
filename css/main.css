@@ -537,7 +537,10 @@ a.faded:hover {
 }
 
 .bike {
-    position: absolute
+    position: absolute;
+    left: 0vw; 
+    top: 47.8vw; 
+    width: 251px;
 }
 
 .bike .frame {
@@ -591,4 +594,72 @@ a.faded:hover {
     position: absolute;
     width: 9.7vw;
     height: 3.9vh;
+}
+
+.vrteleska,
+.paricka,
+.banknota,
+.raka,
+.kola {
+    position: absolute;
+}
+
+.vrteleska {
+    left: 62.92vw; 
+    top: 19.1vw;
+    width: 67px;
+}
+
+.paricka {
+    width: 143px;
+    top: 27.3vw;
+}
+
+.banknota {
+    width: 203px;
+    left: 18vw; 
+}
+
+.raka {
+    left: 0vw; 
+    top: 47.8vw; 
+    width: 251px;
+}
+
+.kola {
+    width: 146px;
+    left: 0.5vw; 
+    top: 47.74vw;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1900px) {
+    
+    .vrteleska {
+        left: 63.1vw; 
+        top: 19.3vw;
+        width: 44px;
+    }
+
+    .paricka {
+        width: 102px;
+        left: -0.23vw;
+    }
+
+    .banknota {
+        width: 180px;
+        left: 14vw; 
+        top: 0vw;
+    }
+
+    .bike {
+        margin-left: -5.2vw; 
+        top: 47.8vw; 
+        width: 180px;
+    }
+      
+    .kola {
+        width: 90px;
+        top: 48.4vw;
+    }
+
 }
