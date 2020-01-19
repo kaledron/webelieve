@@ -17,6 +17,7 @@ var imgArr = [
 for (var i = 0; i < imgArr.length; i++) {
     var img = new Image();
     img.src = 'img/' + imgArr[i];
+    img.src = 'img/1366/' + imgArr[i];
 }
 
 function showHide(div_section) {
@@ -208,7 +209,6 @@ function generatePictureCode(val, elem) {
 }
 
 window.addEventListener('scroll', function() {
-    console.log(window.scrollY);
     coords = 1920;
     if (window.innerWidth < 1400) {
         coords = 1366;
