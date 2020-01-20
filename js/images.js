@@ -205,16 +205,11 @@ function getSrc7_1366(scrollPos, elem) {
 }
 
 function generatePictureCode(val, elem) {
-    return '<picture><source media="(min-width: 1450px)" srcset="img/'+elem+'-'+val+'.png"><source media="(min-width: 1024px)" srcset="img/1366/'+elem+'-'+val+'.png"><img src="img/'+elem+'-'+val+'.png"></picture>';
+    return '<picture><source media="(min-width: 1450px)" srcset="img/'+elem+'-'+val+'.png"><source media="(min-width: 1024px)" srcset="img/1366/'+elem+'-'+val+'.png"><img src="img/'+elem+'-'+val+'.png" style="width: 100vw;"></picture>';
 }
 
 window.addEventListener('scroll', function() {
-    coords = 1920;
-    if (window.innerWidth < 1400) {
-        coords = 1366;
-    }
-
-    if (coords == 1920) {
+    if (window.innerWidth == 1920) {
         setTimeout(function(){  
             anime2.innerHTML = getSrc2(window.scrollY, "anime2",);
             anime3.innerHTML = getSrc3(window.scrollY, "anime3",);
@@ -223,7 +218,7 @@ window.addEventListener('scroll', function() {
             anime6.innerHTML = getSrc6(window.scrollY, "anime6",);
             anime7.innerHTML = getSrc7(window.scrollY, "anime7",);
         },109);
-    } else {
+    } else if (window.innerWidth > 1275 && window.innerWidth < 1900) {
         setTimeout(function(){  
             anime2.innerHTML = getSrc2_1366(window.scrollY, "anime2",);
             anime3.innerHTML = getSrc3_1366(window.scrollY, "anime3",);

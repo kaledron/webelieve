@@ -553,6 +553,30 @@ a.faded:hover {
     visibility: visible
 }
 
+.bike.is-scrolling.is-shifting .frame--1 {
+    -webkit-animation: pedal-1 1s infinite;
+    -o-animation: pedal-1 1s infinite;
+    animation: pedal-1 1s infinite
+}
+
+.bike.is-scrolling.is-shifting .frame--2 {
+    -webkit-animation: pedal-2 1s infinite;
+    -o-animation: pedal-2 1s infinite;
+    animation: pedal-2 1s infinite
+}
+
+.bike.is-scrolling.is-shifting .frame--3 {
+    -webkit-animation: pedal-3 1s infinite;
+    -o-animation: pedal-3 1s infinite;
+    animation: pedal-3 1s infinite
+}
+
+.bike.is-scrolling.is-shifting .frame--4 {
+    -webkit-animation: pedal-4 1s infinite;
+    -o-animation: pedal-4 1s infinite;
+    animation: pedal-4 1s infinite
+}
+
 .aboutus,
 .howwework,
 .whatweworkon,
@@ -611,28 +635,52 @@ a.faded:hover {
 }
 
 .paricka {
-    width: 143px;
+    width: 7.46vw;
     top: 27.3vw;
 }
 
 .banknota {
-    width: 203px;
+    width: 9.8vw;
     left: 18vw; 
 }
 
 .raka {
-    left: 0vw; 
-    top: 47.8vw; 
-    width: 251px;
+    left: -0.95vw; 
+    width: 14vw;
 }
 
 .kola {
-    width: 146px;
+    width: 7.5vw;
     left: 0.5vw; 
     top: 47.74vw;
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1900px) {
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+   
+    .vrteleska {
+        left: 63.1vw; 
+        top: 19.3vw;
+        width: 41px;
+    }
+
+    .banknota {
+        left: 14vw; 
+        top: 0vw;
+    }
+
+    .raka {
+        left: 4.33vw; 
+    }
+    
+    .bike {
+        margin-left: -5.2vw; 
+        top: 47.8vw; 
+        width: 180px;
+    }
+      
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1400px) {
     
     .vrteleska {
         left: 63.1vw; 
@@ -640,15 +688,13 @@ a.faded:hover {
         width: 44px;
     }
 
-    .paricka {
-        width: 102px;
-        left: -0.23vw;
-    }
-
     .banknota {
-        width: 180px;
         left: 14vw; 
         top: 0vw;
+    }
+
+    .raka {
+        left: 4.33vw; 
     }
 
     .bike {
@@ -657,9 +703,29 @@ a.faded:hover {
         width: 180px;
     }
       
-    .kola {
-        width: 90px;
-        top: 48.4vw;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1900px) {
+    
+    .vrteleska {
+        left: 63.1vw; 
+        top: 19.3vw;
+        width: 44px;
     }
 
+    .banknota {
+        left: 14vw; 
+        top: 0vw;
+    }
+
+    .raka {
+        left: 4.33vw; 
+    }
+
+    .bike {
+        margin-left: -5.2vw; 
+        top: 47.8vw; 
+        width: 180px;
+    }
+      
 }
