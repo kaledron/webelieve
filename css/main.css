@@ -434,55 +434,6 @@ a.faded:hover {
     float: left;
 }
 
-.anime-div {
-    position: relative;
-    line-height: 0;
-}
-
-#anime2 {
-    position: absolute;
-    width: 100vw;
-    margin-top: -409.1vw;
-    margin-left: -0.13102213vw;
-    border: 0;
-}
-
-#anime3 {
-    position: absolute;
-    width: 100vw;
-    margin-top: -338.55vw;
-    border: 0;
-}
-
-#anime4 {
-    position: absolute;
-    width: 100vw;
-    margin-top: -271.06vw;
-    border: 0;
-}
-
-#anime5 {
-    position: absolute;
-    width: 100vw;
-    margin-top: -203.3vw;
-    border: 0;
-}
-
-#anime6 {
-    position: absolute;
-    width: 100vw;
-    margin-top: -135.7vw;
-    border: 0;
-}
-
-#anime7 {
-    position: absolute;
-    width: 100vw;
-    margin-top: -63vw;
-    margin-left: -0.13vw;
-    border: 0;
-}
-
 .space {
     width: 100vw;
     height: 10vw;
@@ -620,6 +571,55 @@ a.faded:hover {
     height: 3.9vh;
 }
 
+.anime-div {
+    position: relative;
+    line-height: 0;
+}
+
+#anime2 {
+    position: absolute;
+    width: 100vw;
+    margin-top: 64.9vw;
+    margin-left: -0.184vw;
+    border: 0;
+}
+
+#anime3 {
+    position: absolute;
+    width: 100vw;
+    margin-top: 135.49vw;
+    border: 0;
+}
+
+#anime4 {
+    position: absolute;
+    width: 100vw;
+    margin-top: 202.99vw;
+    border: 0;
+}
+
+#anime5 {
+    position: absolute;
+    width: 100vw;
+    margin-top: 270.6vw;
+    border: 0;
+}
+
+#anime6 {
+    position: absolute;
+    width: 100vw;
+    margin-top: 338.3vw;
+    border: 0;
+}
+
+#anime7 {
+    position: absolute;
+    width: 100vw;
+    margin-top: 407vw;
+    margin-left: -0.13vw;
+    border: 0;
+}
+
 .vrteleska,
 .paricka,
 .banknota,
@@ -680,8 +680,20 @@ a.faded:hover {
       
 }
 
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+   
+    #anime2 {
+        margin-left: -0.2vw;
+    }
+
+}
+
 @media only screen and (min-width: 1366px) and (max-width: 1400px) {
     
+    #anime2 {
+        margin-left: -0.185vw;
+    }
+
     .vrteleska {
         left: 63.1vw; 
         top: 19.3vw;
