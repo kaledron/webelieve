@@ -288,35 +288,55 @@ function getSrc7_950H(scrollPos, elem) {
     if (scrollPos > 5100) return generatePictureCode(12, elem);
 }
 
+function getSrc7_1200H(scrollPos, elem) {
+    if (scrollPos < 7700) return generatePictureCode(1, elem);
+    if (scrollPos < 7720) return generatePictureCode(2, elem);
+    if (scrollPos < 7740) return generatePictureCode(3, elem);
+    if (scrollPos < 7760) return generatePictureCode(4, elem);
+    if (scrollPos < 7780) return generatePictureCode(5, elem);
+    if (scrollPos < 7800) return generatePictureCode(6, elem);
+    if (scrollPos < 7820) return generatePictureCode(7, elem);
+    if (scrollPos < 7840) return generatePictureCode(8, elem);
+    if (scrollPos < 7860) return generatePictureCode(9, elem);
+    if (scrollPos < 7880) return generatePictureCode(10, elem);
+    if (scrollPos < 7900) return generatePictureCode(11, elem);
+    if (scrollPos > 7900) return generatePictureCode(12, elem);
+}
+
 function generatePictureCode(val, elem) {
     return '<picture><source media="(min-width: 1450px)" srcset="img/'+elem+'-'+val+'.png"><source media="(min-width: 1024px)" srcset="img/1366/'+elem+'-'+val+'.png"><img src="img/'+elem+'-'+val+'.png" style="width: 100vw;"></picture>';
 }
 
 window.addEventListener('scroll', function() {
+    console.log(window.scrollY);
     if (window.innerWidth == 1920) {
         setTimeout(function(){  
-            anime2.innerHTML = getSrc2(window.scrollY, "anime2",);
-            anime3.innerHTML = getSrc3(window.scrollY, "anime3",);
-            anime4.innerHTML = getSrc4(window.scrollY, "anime4",);
-            anime5.innerHTML = getSrc5(window.scrollY, "anime5",);
-            anime6.innerHTML = getSrc6(window.scrollY, "anime6",);
-            anime7.innerHTML = getSrc7(window.scrollY, "anime7",);
+            anime2.innerHTML = getSrc2(window.scrollY, "anime2");
+            anime3.innerHTML = getSrc3(window.scrollY, "anime3");
+            anime4.innerHTML = getSrc4(window.scrollY, "anime4");
+            anime5.innerHTML = getSrc5(window.scrollY, "anime5");
+            anime6.innerHTML = getSrc6(window.scrollY, "anime6");
+            if (window.innerHeight > 1080) {
+                anime7.innerHTML = getSrc7_1200H(window.scrollY, "anime7");
+            } else {
+                anime7.innerHTML = getSrc7(window.scrollY, "anime7");
+            }
         },109);
     } else if (window.innerWidth > 1275 && window.innerWidth < 1900 && window.innerHeight != 950) {
         setTimeout(function(){  
-            anime2.innerHTML = getSrc2_1366(window.scrollY, "anime2",);
-            anime3.innerHTML = getSrc3_1366(window.scrollY, "anime3",);
-            anime4.innerHTML = getSrc4_1366(window.scrollY, "anime4",);
-            anime5.innerHTML = getSrc5_1366(window.scrollY, "anime5",);
-            anime6.innerHTML = getSrc6_1366(window.scrollY, "anime6",);
-            anime7.innerHTML = getSrc7_1366(window.scrollY, "anime7",);
+            anime2.innerHTML = getSrc2_1366(window.scrollY, "anime2");
+            anime3.innerHTML = getSrc3_1366(window.scrollY, "anime3");
+            anime4.innerHTML = getSrc4_1366(window.scrollY, "anime4");
+            anime5.innerHTML = getSrc5_1366(window.scrollY, "anime5");
+            anime6.innerHTML = getSrc6_1366(window.scrollY, "anime6");
+            anime7.innerHTML = getSrc7_1366(window.scrollY, "anime7");
         },109);
     } else if (window.innerWidth == 1280 && window.innerHeight == 950) {
-        anime2.innerHTML = getSrc2_950H(window.scrollY, "anime2",);
-        anime3.innerHTML = getSrc3_950H(window.scrollY, "anime3",);
-        anime4.innerHTML = getSrc4_950H(window.scrollY, "anime4",);
-        anime5.innerHTML = getSrc5_950H(window.scrollY, "anime5",);
-        anime6.innerHTML = getSrc6_950H(window.scrollY, "anime6",);
-        anime7.innerHTML = getSrc7_950H(window.scrollY, "anime7",);
+        anime2.innerHTML = getSrc2_950H(window.scrollY, "anime2");
+        anime3.innerHTML = getSrc3_950H(window.scrollY, "anime3");
+        anime4.innerHTML = getSrc4_950H(window.scrollY, "anime4");
+        anime5.innerHTML = getSrc5_950H(window.scrollY, "anime5");
+        anime6.innerHTML = getSrc6_950H(window.scrollY, "anime6");
+        anime7.innerHTML = getSrc7_950H(window.scrollY, "anime7");
     }
 });
