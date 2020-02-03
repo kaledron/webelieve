@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>We Believe</title>
-    <link rel="stylesheet" href="css/main.css?13" />
+    <link rel="stylesheet" href="css/main.css?14" />
     <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,13 +26,25 @@
     <a href="#" onclick="showHide('whatweworkon')"><div class="whatweworkon"></div></a>
     <a href="#" onclick="showHide('howwedecide')"><div class="howwedecide"></div></a>
     <a href="#" onclick="showHide('team')"><div class="team"></div></a>
-    <picture class="home__figure__clouds js-graphic">
-      <source media="(min-width: 1700px)" srcset="img/anime-bg.png">
-      <source media="(min-width: 1400px)" srcset="img/1440/anime-bg.png">
-      <source media="(min-width: 1365px)" srcset="img/1366/anime-bg.png">
-      <source media="(min-width: 1024px)" srcset="img/1280/anime-bg.png">
-      <img src="img/anime-bg.png" style="width: 100vw;">
-    </picture>
+    <div class="main">
+      <picture class="home__figure__clouds js-graphic">
+        <source media="(min-width: 1700px)" srcset="img/anime-bg.png">
+        <source media="(min-width: 1400px)" srcset="img/1440/anime-bg.png">
+        <source media="(min-width: 1365px)" srcset="img/1366/anime-bg.png">
+        <source media="(min-width: 1024px)" srcset="img/1280/anime-bg.png">
+        <img src="img/anime-bg.png" style="width: 100vw;">
+      </picture>
+    </div>
+    <div class="main-m">
+      <picture class="home__figure__clouds js-graphic">
+        <source media="(min-width: 1080px)" srcset="img/m/2280/anime-bg.png">
+        <source media="(min-width: 720px)"  srcset="img/m/1280/anime-bg.png">
+        <source media="(min-width: 414px)"  srcset="img/m/736/anime-bg.png">
+        <source media="(min-width: 360px)"  srcset="img/m/640/anime-bg.png">
+        <source media="(min-width: 320px)"  srcset="img/m/anime-bg.png">
+        <img src="img/m/1280/anime-bg.png" style="width: 100vw;">
+      </picture>
+    </div>
 
     <article class="home" id="anime">
       <div class="first">
@@ -48,16 +60,30 @@
             <source media="(min-width: 1024px)" srcset="img/paricka1.png">
             <img src="img/paricka1.png" class="paricka">
           </picture>
-          <picture class="home__figure__clouds js-graphic" data-type="top" data-top-start="73" data-top-end="118">
-            <source media="(min-width: 1450px)" srcset="img/banknota1.png">
-            <source media="(min-width: 1024px)" srcset="img/banknota1.png">
-            <img src="img/banknota1.png" class="banknota">
-          </picture>
-          <picture class="home__figure__clouds js-graphic" data-type="left" data-left-start="57" data-left-end="62">
-            <source media="(min-width: 1450px)" srcset="img/kolicka1.png">
-            <source media="(min-width: 1024px)" srcset="img/kolicka1.png">
-            <img src="img/kolicka1.png" class="kola">
-          </picture>
+          <div class="main">
+              <picture class="home__figure__clouds js-graphic" data-type="top" data-top-start="73" data-top-end="118">
+                <source media="(min-width: 1450px)" srcset="img/banknota1.png">
+                <source media="(min-width: 1024px)" srcset="img/banknota1.png">
+                <img src="img/banknota1.png" class="banknota">
+              </picture>
+              <picture class="home__figure__clouds js-graphic" data-type="left" data-left-start="57" data-left-end="62">
+              <source media="(min-width: 1450px)" srcset="img/kolicka1.png">
+              <source media="(min-width: 1024px)" srcset="img/kolicka1.png">
+              <img src="img/kolicka1.png" class="kola">
+            </picture>
+          </div>
+          <div class="main-m">
+            <picture class="home__figure__clouds js-graphic" data-type="top" data-top-start="10" data-top-end="55">
+              <source media="(min-width: 1450px)" srcset="img/banknota1.png">
+              <source media="(min-width: 1024px)" srcset="img/banknota1.png">
+              <img src="img/banknota1.png" class="banknota">
+            </picture>
+            <picture class="home__figure__clouds js-graphic" data-type="left" data-left-start="52" data-left-end="70">
+              <source media="(min-width: 1450px)" srcset="img/kolicka1.png">
+              <source media="(min-width: 1024px)" srcset="img/kolicka1.png">
+              <img src="img/kolicka1.png" class="kola">
+            </picture>
+          </div>
           <div class="bike js-graphic" data-type="left" data-left-start="16.4" data-left-end="16" data-scroll="true">
             <img class="frame frame--1 raka" src="img/raka1-1.png">
             <img class="frame frame--2 raka" src="img/raka1-2.png">
@@ -70,42 +96,66 @@
         <div id="anime2">
           <picture>
             <source media="(min-width: 1450px)" srcset="img/anime2-1.png">
-            <source media="(min-width: 1024px)" srcset="img/1366/anime2-1.png">
-            <img src="img/anime2-1.png" style="width: 100vw;">
+            <source media="(min-width: 1365px)" srcset="img/1366/anime2-1.png">
+            <source media="(min-width: 1080px)" srcset="img/m/2280/anime2-1.png">
+            <source media="(min-width: 720px)"  srcset="img/m/1280/anime2-1.png">
+            <source media="(min-width: 414px)"  srcset="img/m/736/anime2-1.png">
+            <source media="(min-width: 360px)"  srcset="img/m/640/anime2-1.png">
+          <img src="img/anime2-1.png" style="width: 100vw;">
           </picture>
         </div>
         <div id="anime3">
           <picture>
             <source media="(min-width: 1450px)" srcset="img/anime3-1.png">
-            <source media="(min-width: 1024px)" srcset="img/1366/anime3-1.png">
+            <source media="(min-width: 1365px)" srcset="img/1366/anime3-1.png">
+            <source media="(min-width: 1080px)" srcset="img/m/2280/anime3-1.png">
+            <source media="(min-width: 720px)"  srcset="img/m/1280/anime3-1.png">
+            <source media="(min-width: 414px)"  srcset="img/m/736/anime3-1.png">
+            <source media="(min-width: 360px)"  srcset="img/m/640/anime3-1.png">
             <img src="img/anime3-1.png" style="width: 100vw;">
           </picture>
         </div>
         <div id="anime4">
           <picture>
             <source media="(min-width: 1450px)" srcset="img/anime4-1.png">
-            <source media="(min-width: 1024px)" srcset="img/1366/anime4-1.png">
+            <source media="(min-width: 1365px)" srcset="img/1366/anime4-1.png">
+            <source media="(min-width: 1080px)" srcset="img/m/2280/anime4-1.png">
+            <source media="(min-width: 720px)"  srcset="img/m/1280/anime4-1.png">
+            <source media="(min-width: 414px)"  srcset="img/m/736/anime4-1.png">
+            <source media="(min-width: 360px)"  srcset="img/m/640/anime4-1.png">
             <img src="img/anime4-1.png" style="width: 100vw;">
           </picture>
         </div>
         <div id="anime5">
           <picture>
             <source media="(min-width: 1450px)" srcset="img/anime5-1.png">
-            <source media="(min-width: 1024px)" srcset="img/1366/anime5-1.png">
+            <source media="(min-width: 1365px)" srcset="img/1366/anime5-1.png">
+            <source media="(min-width: 1080px)" srcset="img/m/2280/anime5-1.png">
+            <source media="(min-width: 720px)"  srcset="img/m/1280/anime5-1.png">
+            <source media="(min-width: 414px)"  srcset="img/m/736/anime5-1.png">
+            <source media="(min-width: 360px)"  srcset="img/m/640/anime5-1.png">
             <img src="img/anime5-1.png" style="width: 100vw;">
           </picture>
         </div>
         <div id="anime6">
           <picture>
             <source media="(min-width: 1450px)" srcset="img/anime6-1.png">
-            <source media="(min-width: 1024px)" srcset="img/1366/anime6-1.png">
+            <source media="(min-width: 1365px)" srcset="img/1366/anime6-1.png">
+            <source media="(min-width: 1080px)" srcset="img/m/2280/anime6-1.png">
+            <source media="(min-width: 720px)"  srcset="img/m/1280/anime6-1.png">
+            <source media="(min-width: 414px)"  srcset="img/m/736/anime6-1.png">
+            <source media="(min-width: 360px)"  srcset="img/m/640/anime6-1.png">
             <img src="img/anime6-1.png" style="width: 100vw;">
           </picture>
         </div>
         <div id="anime7">
           <picture>
             <source media="(min-width: 1450px)" srcset="img/anime7-1.png">
-            <source media="(min-width: 1024px)" srcset="img/1366/anime7-1.png">
+            <source media="(min-width: 1365px)" srcset="img/1366/anime7-1.png">
+            <source media="(min-width: 1080px)" srcset="img/m/2280/anime7-1.png">
+            <source media="(min-width: 720px)"  srcset="img/m/1280/anime7-1.png">
+            <source media="(min-width: 414px)"  srcset="img/m/736/anime7-1.png">
+            <source media="(min-width: 360px)"  srcset="img/m/640/anime7-1.png">
             <img src="img/anime7-1.png" style="width: 100vw;">
           </picture>
         </div>
@@ -149,7 +199,7 @@
         </picture>
       </div>
     </section>
-    <script src="js/main.js?13"></script>
-    <script src="js/images.js?13"></script>
+    <script src="js/main.js?14"></script>
+    <script src="js/images.js?14"></script>
   </body>
 </html>

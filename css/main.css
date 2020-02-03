@@ -288,17 +288,24 @@ html {
     overflow-y: scroll;
     scrollbar-width: none; 
     -ms-overflow-style: none; 
+    width: auto !important;
     overflow-x: hidden !important; 
     -webkit-overflow-scrolling: touch;
 }
 
-body {
-    top: 0;
-    left: 0;
-    width: 100vw;
+html::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body {
     top: 0;
     left: 0;
     width: 100vw;
@@ -629,9 +636,10 @@ a.faded:hover {
 }
 
 .vrteleska {
-    left: 62.92vw; 
-    top: 19.1vw;
-    width: 67px;
+    left: 62.96vw; 
+    top: 19.2vw;
+    /* width: 67px; */
+    width: 3.35vw;
 }
 
 .paricka {
@@ -652,7 +660,249 @@ a.faded:hover {
 .kola {
     width: 7.5vw;
     left: 0.5vw; 
-    top: 47.74vw;
+    top: 47.9vw;
+}
+
+@media only screen and (min-width: 1079px) and (max-width: 1365px) {
+   
+    .vrteleska {
+        left: 70.35vw; 
+        top: 52.5vw;
+        width: 45px;
+    }
+
+    .paricka {
+        top: 64.8vw;
+    }
+    
+    .banknota {
+        left: 14vw; 
+    }
+
+    .raka {
+        top: 37.04vw;
+        left: -3.5vw; 
+    }
+
+    .kola {
+        left: 0vw;
+        top: 91.4vw;
+    }
+
+    #anime2 {
+        margin-top: 61.8vw;
+        margin-left: -0.1vw;
+        border: 0;
+    }
+
+    #anime3 {
+        margin-top: 176.4vw;
+        border: 0;
+    }
+ 
+    #anime4 {
+        margin-top: 278.56vw;
+        left: 0;
+        border: 0;
+    }
+
+    #anime5 {
+        margin-top: 392.56vw;
+        border: 0;
+    }
+
+    #anime6 {
+        margin-top: 516.8vw;
+        border: 0;
+    }
+    
+    #anime7 {
+        margin-top: 670vw;
+        margin-left: -0.13vw;
+        border: 0;
+    }       
+}
+
+@media only screen and (min-width: 375px) and (max-width: 420px) {
+   
+    .vrteleska {
+        left: 70.45vw; 
+        top: 52.6vw;
+        width: 16px;
+    }
+
+    .paricka {
+        top: 64.85vw;
+    }
+    
+    .banknota {
+        left: 14vw; 
+    }
+
+    .raka {
+        top: 37.04vw;
+        left: -3.5vw; 
+    }
+
+    .kola {
+        left: 0vw;
+        top: 91.2vw;
+    }
+
+    #anime2 {
+        margin-top: 26.7vw;
+        margin-left: -0.4vw;
+        border: 0;
+    }
+
+    #anime3 {
+        margin-top: 176.4vw;
+        border: 0;
+    }
+ 
+    #anime4 {
+        margin-top: 278.63vw;
+        left: 4.5vw;
+        border: 0;
+    }
+
+    #anime5 {
+        margin-top: 392.6vw;
+        border: 0;
+    }
+
+    #anime6 {
+        margin-top: 516.7vw;
+        border: 0;
+    }
+    
+    #anime7 {
+        margin-top: 671vw;
+        margin-left: -0.13vw;
+        border: 0;
+    }       
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 370px) {
+   
+    .vrteleska {
+        left: 70.5vw; 
+        top: 48.6vw;
+        width: 14px;
+    }
+
+    .paricka {
+        top: 60.8vw;
+    }
+    
+    .banknota {
+        left: 14vw; 
+    }
+
+    .raka {
+        top: 37.04vw;
+        left: -3.5vw; 
+    }
+
+    .kola {
+        left: 0vw;
+        top: 87.2vw;
+    }
+
+    #anime2 {
+        margin-top: 26.4vw;
+        margin-left: -0.7vw;
+        border: 0;
+    }
+
+    #anime3 {
+        margin-top: 180vw;
+        border: 0;
+    }
+ 
+    #anime4 {
+        margin-top: 282.66vw;
+        left: 3vw;
+        border: 0;
+    }
+
+    #anime5 {
+        margin-top: 389.6vw;
+        border: 0;
+    }
+
+    #anime6 {
+        margin-top: 512.7vw;
+        border: 0;
+    }
+    
+    #anime7 {
+        margin-top: 667vw;
+        margin-left: -0.13vw;
+        border: 0;
+    }       
+
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1079px) {
+   
+    .vrteleska {
+        left: 70.35vw; 
+        top: 52.5vw;
+        width: 29px;
+    }
+
+    .paricka {
+        top: 64.8vw;
+    }
+    
+    .banknota {
+        left: 14vw; 
+    }
+
+    .raka {
+        top: 37.04vw;
+        left: -3.5vw; 
+    }
+
+    .kola {
+        left: 0vw;
+        top: 91.4vw;
+    }
+
+    #anime2 {
+        margin-top: 26.4vw;
+        margin-left: -0.6vw;
+        border: 0;
+    }
+
+    #anime3 {
+        margin-top: 176.2vw;
+        border: 0;
+    }
+ 
+    #anime4 {
+        margin-top: 278.56vw;
+        left: 2.8vw;
+        border: 0;
+    }
+
+    #anime5 {
+        margin-top: 392.56vw;
+        border: 0;
+    }
+
+    #anime6 {
+        margin-top: 515.5vw;
+        border: 0;
+    }
+    
+    #anime7 {
+        margin-top: 668vw;
+        margin-left: -0.13vw;
+        border: 0;
+    }       
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1365px) {
@@ -660,7 +910,7 @@ a.faded:hover {
     .vrteleska {
         left: 63.1vw; 
         top: 19.3vw;
-        width: 41px;
+        /* width: 41px; */
     }
 
     .banknota {
@@ -677,15 +927,11 @@ a.faded:hover {
         top: 47.8vw; 
         width: 180px;
     }
-      
-}
 
-@media only screen and (min-width: 1280px) and (max-width: 1365px) {
-   
     #anime2 {
         margin-left: -0.2vw;
     }
-
+      
 }
 
 @media only screen and (min-width: 1366px) and (max-width: 1400px) {
