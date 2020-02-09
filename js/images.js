@@ -75,13 +75,29 @@ var imgArr = [
 
 for (var i = 0; i < imgArr.length; i++) {
     var img = new Image();
-    img.src = 'img/' + imgArr[i];
-    img.src = 'img/1366/' + imgArr[i];
-    img.src = 'img/m/640/' + imgArr[i];
-    img.src = 'img/m/667/' + imgArr[i];
-    img.src = 'img/m/736/' + imgArr[i];
-    img.src = 'img/m/1280/' + imgArr[i];
-    img.src = 'img/m/2280/' + imgArr[i];
+    switch(window.innerWidth) {
+        case 1366:
+            img.src = 'img/1366/' + imgArr[i];
+        break;
+        case 2280:
+            img.src = 'img/m/2280/' + imgArr[i];
+        break;
+        case 1280:
+            img.src = 'img/m/1280/' + imgArr[i];
+        break;
+        case 736:
+            img.src = 'img/m/736/' + imgArr[i];
+        break;
+        case 667:
+            img.src = 'img/m/667/' + imgArr[i];
+        break;
+        case 640:
+            img.src = 'img/m/640/' + imgArr[i];
+        break;
+        default:
+            img.src = 'img/' + imgArr[i];
+        break;
+    }
 }
 
 var anime2 = document.getElementById('anime2');
@@ -613,17 +629,17 @@ function getSrc7_640H(scrollPos, elem) {
 }
 
 function getSrc2_736H(scrollPos, elem) {
-    if (scrollPos < 150) return generatePictureCode(1, elem);
-    if (scrollPos < 165) return generatePictureCode(2, elem);
-    if (scrollPos < 180) return generatePictureCode(3, elem);
-    if (scrollPos < 195) return generatePictureCode(4, elem);
-    if (scrollPos < 210) return generatePictureCode(5, elem);
-    if (scrollPos < 225) return generatePictureCode(6, elem);
-    if (scrollPos < 240) return generatePictureCode(7, elem);
-    if (scrollPos < 255) return generatePictureCode(8, elem);
-    if (scrollPos < 270) return generatePictureCode(9, elem);
-    if (scrollPos < 285) return generatePictureCode(10, elem);
-    if (scrollPos > 285) return generatePictureCode(10, elem);
+    if (scrollPos < 250) return generatePictureCode(1, elem);
+    if (scrollPos < 265) return generatePictureCode(2, elem);
+    if (scrollPos < 280) return generatePictureCode(3, elem);
+    if (scrollPos < 295) return generatePictureCode(4, elem);
+    if (scrollPos < 310) return generatePictureCode(5, elem);
+    if (scrollPos < 325) return generatePictureCode(6, elem);
+    if (scrollPos < 340) return generatePictureCode(7, elem);
+    if (scrollPos < 355) return generatePictureCode(8, elem);
+    if (scrollPos < 370) return generatePictureCode(9, elem);
+    if (scrollPos < 385) return generatePictureCode(10, elem);
+    if (scrollPos > 385) return generatePictureCode(10, elem);
 }
 
 function getSrc3_736H(scrollPos, elem) {
@@ -638,63 +654,63 @@ function getSrc3_736H(scrollPos, elem) {
 }
 
 function getSrc4_736H(scrollPos, elem) {
-    if (scrollPos < 1000) return generatePictureCode(1, elem);
-    if (scrollPos < 1015) return generatePictureCode(2, elem);
-    if (scrollPos < 1030) return generatePictureCode(3, elem);
-    if (scrollPos < 1045) return generatePictureCode(4, elem);
-    if (scrollPos < 1060) return generatePictureCode(5, elem);
-    if (scrollPos < 1075) return generatePictureCode(6, elem);
-    if (scrollPos < 1100) return generatePictureCode(7, elem);
-    if (scrollPos < 1115) return generatePictureCode(8, elem);
-    if (scrollPos < 1130) return generatePictureCode(9, elem);
-    if (scrollPos < 1145) return generatePictureCode(10, elem);
-    if (scrollPos < 1160) return generatePictureCode(11, elem);
-    if (scrollPos < 1175) return generatePictureCode(12, elem);
-    if (scrollPos < 1200) return generatePictureCode(13, elem);
-    if (scrollPos > 1200) return generatePictureCode(13, elem);
+    if (scrollPos < 1050) return generatePictureCode(1, elem);
+    if (scrollPos < 1080) return generatePictureCode(2, elem);
+    if (scrollPos < 1110) return generatePictureCode(3, elem);
+    if (scrollPos < 1140) return generatePictureCode(4, elem);
+    if (scrollPos < 1170) return generatePictureCode(5, elem);
+    if (scrollPos < 1200) return generatePictureCode(6, elem);
+    if (scrollPos < 1230) return generatePictureCode(7, elem);
+    if (scrollPos < 1260) return generatePictureCode(8, elem);
+    if (scrollPos < 1290) return generatePictureCode(9, elem);
+    if (scrollPos < 1320) return generatePictureCode(10, elem);
+    if (scrollPos < 1350) return generatePictureCode(11, elem);
+    if (scrollPos < 1380) return generatePictureCode(12, elem);
+    if (scrollPos < 1410) return generatePictureCode(13, elem);
+    if (scrollPos > 1410) return generatePictureCode(13, elem);
 }
 
 function getSrc5_736H(scrollPos, elem) {
-    if (scrollPos < 1315) return generatePictureCode(1, elem);
-    if (scrollPos < 1333) return generatePictureCode(2, elem);
-    if (scrollPos < 1351) return generatePictureCode(3, elem);
-    if (scrollPos < 1369) return generatePictureCode(4, elem);
-    if (scrollPos < 1387) return generatePictureCode(5, elem);
-    if (scrollPos < 1405) return generatePictureCode(6, elem);
-    if (scrollPos < 1423) return generatePictureCode(7, elem);
-    if (scrollPos > 1423) return generatePictureCode(7, elem);
+    if (scrollPos < 1500) return generatePictureCode(1, elem);
+    if (scrollPos < 1550) return generatePictureCode(2, elem);
+    if (scrollPos < 1600) return generatePictureCode(3, elem);
+    if (scrollPos < 1650) return generatePictureCode(4, elem);
+    if (scrollPos < 1700) return generatePictureCode(5, elem);
+    if (scrollPos < 1750) return generatePictureCode(6, elem);
+    if (scrollPos < 1800) return generatePictureCode(7, elem);
+    if (scrollPos > 1800) return generatePictureCode(7, elem);
 }
 
 function getSrc6_736H(scrollPos, elem) {
-    if (scrollPos < 1700) return generatePictureCode(1, elem);
-    if (scrollPos < 1715) return generatePictureCode(2, elem);
-    if (scrollPos < 1730) return generatePictureCode(3, elem);
-    if (scrollPos < 1745) return generatePictureCode(4, elem);
-    if (scrollPos < 1760) return generatePictureCode(5, elem);
-    if (scrollPos < 1775) return generatePictureCode(6, elem);
-    if (scrollPos < 1790) return generatePictureCode(7, elem);
-    if (scrollPos < 1805) return generatePictureCode(8, elem);
-    if (scrollPos < 1820) return generatePictureCode(9, elem);
-    if (scrollPos < 1835) return generatePictureCode(10, elem);
-    if (scrollPos < 1850) return generatePictureCode(11, elem);
-    if (scrollPos < 1875) return generatePictureCode(12, elem);
-    if (scrollPos > 1875) return generatePictureCode(12, elem);
+    if (scrollPos < 2000) return generatePictureCode(1, elem);
+    if (scrollPos < 2027) return generatePictureCode(2, elem);
+    if (scrollPos < 2054) return generatePictureCode(3, elem);
+    if (scrollPos < 2081) return generatePictureCode(4, elem);
+    if (scrollPos < 2108) return generatePictureCode(5, elem);
+    if (scrollPos < 2135) return generatePictureCode(6, elem);
+    if (scrollPos < 2162) return generatePictureCode(7, elem);
+    if (scrollPos < 2189) return generatePictureCode(8, elem);
+    if (scrollPos < 2216) return generatePictureCode(9, elem);
+    if (scrollPos < 2243) return generatePictureCode(10, elem);
+    if (scrollPos < 2270) return generatePictureCode(11, elem);
+    if (scrollPos < 2297) return generatePictureCode(12, elem);
+    if (scrollPos > 2297) return generatePictureCode(12, elem);
 }
 
 function getSrc7_736H(scrollPos, elem) {
-    if (scrollPos < 1985) return generatePictureCode(1, elem);
-    if (scrollPos < 2000) return generatePictureCode(2, elem);
-    if (scrollPos < 2015) return generatePictureCode(3, elem);
-    if (scrollPos < 2030) return generatePictureCode(4, elem);
-    if (scrollPos < 2045) return generatePictureCode(5, elem);
-    if (scrollPos < 2060) return generatePictureCode(6, elem);
-    if (scrollPos < 2075) return generatePictureCode(7, elem);
-    if (scrollPos < 2090) return generatePictureCode(8, elem);
-    if (scrollPos < 2105) return generatePictureCode(9, elem);
-    if (scrollPos < 2120) return generatePictureCode(10, elem);
-    if (scrollPos < 2135) return generatePictureCode(11, elem);
-    if (scrollPos < 2150) return generatePictureCode(12, elem);
-    if (scrollPos > 2150) return generatePictureCode(13, elem);
+    if (scrollPos < 2300) return generatePictureCode(1, elem);
+    if (scrollPos < 2318) return generatePictureCode(2, elem);
+    if (scrollPos < 2336) return generatePictureCode(3, elem);
+    if (scrollPos < 2354) return generatePictureCode(4, elem);
+    if (scrollPos < 2372) return generatePictureCode(5, elem);
+    if (scrollPos < 2400) return generatePictureCode(6, elem);
+    if (scrollPos < 2400) return generatePictureCode(7, elem);
+    if (scrollPos < 2418) return generatePictureCode(8, elem);
+    if (scrollPos < 2436) return generatePictureCode(9, elem);
+    if (scrollPos < 2454) return generatePictureCode(10, elem);
+    if (scrollPos < 2472) return generatePictureCode(11, elem);
+    if (scrollPos < 2500) return generatePictureCode(12, elem);
+    if (scrollPos > 2500) return generatePictureCode(13, elem);
 }
 
 function getSrc2_667H(scrollPos, elem) {
@@ -787,7 +803,7 @@ function generatePictureCode(val, elem) {
 }
 
 window.addEventListener('scroll', function() {
-    // console.log(window.scrollY);
+    console.log(window.scrollY);
     if (window.innerWidth == 1920) {
         setTimeout(function(){  
             anime2.innerHTML = getSrc2(window.scrollY, "anime2");

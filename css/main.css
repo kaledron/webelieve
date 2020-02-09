@@ -548,26 +548,31 @@ a.faded:hover {
 }
 
 .aboutus-m {
-    margin-top: 33.4vw;
+    margin-top: 38vw;
 }
 
 .howwework-m {
-    margin-top: 46vw;
-    height: 19.8vw;
+    margin-top: 53vw;
+    width: 55vw;
+    margin-left: 33vw;
 }
 
 .whatweworkon-m {
-    margin-top: 71vw;
-    height: 19.8vw;
+    margin-top: 67.5vw;
+    width: 67vw;
+    margin-left: 20vw;
 }
 
 .howwedecide-m {
-    margin-top: 95.8vw;
-    height: 19.8vw;
+    margin-top: 81.7vw;
+    width: 59vw;
+    margin-left: 29vw;
 }
 
 .team-m {
-    margin-top: 145.6vw;
+    margin-top: 110.8vw;
+    width: 23vw;
+    margin-left: 65vw;
 }
 
 .aboutus,
@@ -797,28 +802,35 @@ a.faded:hover {
     }
 
     .aboutus-m {
-        margin-top: 27.4vw;
+        margin-top: 28.5vw;
+        width: 37vw;
+        margin-left: 51vw;
     }
     
     .howwework-m {
-        margin-top: 38vw;
-        height: 18.6vw;
+        margin-top: 41.6vw;
+        width: 55vw;
+        margin-left: 33vw;
     }
     
     .whatweworkon-m {
-        margin-top: 58.8vw;
-        height: 18.6vw;
+        margin-top: 55vw;
+        width: 67vw;
+        margin-left: 20vw;
     }
     
     .howwedecide-m {
-        margin-top: 79.6vw;
-        height: 18.6vw;
+        margin-top: 68vw;
+        width: 59vw;
+        margin-left: 29vw;
     }
     
     .team-m {
-        margin-top: 121.4vw;
+        margin-top: 94.6vw;
+        width: 23vw;
+        margin-left: 65vw;
     }
-
+    
     .vrteleska {
         left: 70.35vw; 
         top: 52.5vw;
@@ -871,7 +883,7 @@ a.faded:hover {
     }
     
     #anime7 {
-        margin-top: 668vw;
+        margin-top: 665vw;
         margin-left: -0.13vw;
         border: 0;
     }       
@@ -897,22 +909,19 @@ a.faded:hover {
     }
     
     .howwework-m {
-        margin-top: 39.6vw;
-        height: 18.6vw;
+        margin-top: 41.5vw;
     }
     
     .whatweworkon-m {
-        margin-top: 61vw;
-        height: 18.6vw;
+        margin-top: 54.6vw;
     }
     
     .howwedecide-m {
-        margin-top: 82.6vw;
-        height: 18.6vw;
+        margin-top: 67.8vw;
     }
     
     .team-m {
-        margin-top: 125.8vw;
+        margin-top: 95vw;
     }
        
     .vrteleska {
@@ -967,7 +976,7 @@ a.faded:hover {
     }
     
     #anime7 {
-        margin-top: 671vw;
+        margin-top: 665vw;
         margin-left: -0.13vw;
         border: 0;
     }       
@@ -982,44 +991,34 @@ a.faded:hover {
         margin-top: 11.8vw;
     }
 
-    .thebank-m {
-        margin-top: 12vw;
-        margin-left: 6.2vw;
-        width: 32.4vw;
-        height: 2.9vh;
-    }
-
     .aboutus-m {
-        margin-top: 27.4vw;
+        margin-top: 28.4vw;
     }
     
     .howwework-m {
-        margin-top: 38vw;
-        height: 18.6vw;
+        margin-top: 41vw;
     }
     
     .whatweworkon-m {
-        margin-top: 58.8vw;
-        height: 18.6vw;
+        margin-top: 55vw;
     }
     
     .howwedecide-m {
-        margin-top: 79.6vw;
-        height: 18.6vw;
+        margin-top: 68vw;
     }
     
     .team-m {
-        margin-top: 121.4vw;
+        margin-top: 94.6vw;
     }
    
     .vrteleska {
-        left: 70.65vw; 
-        top: 48.37vw;
-        width: 14px;
+        left: 70.5vw; 
+        top: 52.6vw;
+        width: 15px;
     }
 
     .paricka {
-        top: 60.45vw;
+        top: 64.8vw;
     }
     
     .banknota {
@@ -1033,38 +1032,38 @@ a.faded:hover {
 
     .kola {
         left: 0vw;
-        top: 87vw;
+        top: 91.4vw;
     }
 
     #anime2 {
-        margin-top: 25.8vw;
-        margin-left: -0.35vw;
+        margin-top: 26.6vw;
+        margin-left: -0.42vw;
         border: 0;
     }
 
     #anime3 {
-        margin-top: 180.1vw;
+        margin-top: 176vw;
         border: 0;
     }
  
     #anime4 {
-        margin-top: 282.67vw;
+        margin-top: 278.7vw;
         left: 3.7vw;
         border: 0;
     }
 
     #anime5 {
-        margin-top: 389.8vw;
+        margin-top: 392.8vw;
         border: 0;
     }
 
     #anime6 {
-        margin-top: 504vw;
+        margin-top: 517vw;
         border: 0;
     }
     
     #anime7 {
-        margin-top: 671vw;
+        margin-top: 665vw;
         margin-left: -0.13vw;
         border: 0;
     }       
@@ -1079,34 +1078,24 @@ a.faded:hover {
         margin-top: 9.2vw;
     }
 
-    .thebank-m {
-        margin-top: 9.2vw;
-        margin-left: 6.2vw;
-        width: 32.6vw;
-        height: 2.9vh;
-    }
-
     .aboutus-m {
-        margin-top: 27.4vw;
+        margin-top: 28.4vw;
     }
     
     .howwework-m {
-        margin-top: 38vw;
-        height: 18.6vw;
+        margin-top: 41vw;
     }
     
     .whatweworkon-m {
-        margin-top: 69vw;
-        height: 18.6vw;
+        margin-top: 55vw;
     }
     
     .howwedecide-m {
-        margin-top: 79.6vw;
-        height: 18.6vw;
+        margin-top: 68vw;
     }
     
     .team-m {
-        margin-top: 121.4vw;
+        margin-top: 94.6vw;
     }
    
     .vrteleska {
@@ -1134,8 +1123,8 @@ a.faded:hover {
     }
 
     #anime2 {
-        margin-top: 26.4vw;
-        margin-left: -0.7vw;
+        margin-top: 61.4vw;
+        margin-left: -0.5vw;
         border: 0;
     }
 
@@ -1161,7 +1150,7 @@ a.faded:hover {
     }
     
     #anime7 {
-        margin-top: 667vw;
+        margin-top: 665vw;
         margin-left: -0.13vw;
         border: 0;
     }       
