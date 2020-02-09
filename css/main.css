@@ -535,6 +535,41 @@ a.faded:hover {
     animation: pedal-4 1s infinite
 }
 
+.aboutus-m,
+.howwework-m,
+.whatweworkon-m,
+.howwedecide-m,
+.team-m {
+    position: absolute;
+    width: 42vw; 
+    height: 8vw;
+    margin-left: 48vw;
+    z-index: 1;
+}
+
+.aboutus-m {
+    margin-top: 33.4vw;
+}
+
+.howwework-m {
+    margin-top: 46vw;
+    height: 19.8vw;
+}
+
+.whatweworkon-m {
+    margin-top: 71vw;
+    height: 19.8vw;
+}
+
+.howwedecide-m {
+    margin-top: 95.8vw;
+    height: 19.8vw;
+}
+
+.team-m {
+    margin-top: 145.6vw;
+}
+
 .aboutus,
 .howwework,
 .whatweworkon,
@@ -590,8 +625,15 @@ a.faded:hover {
     height: 2.9vh;
 }
 
+.thebank-m {
+    margin-top: 9vw;
+    margin-left: 6.2vw;
+    position: absolute;
+    width: 30.2vw;
+    height: 2.9vh;
+}
+
 #anime {
-    /* position: relative; */
     line-height: 0;
 }
 
@@ -650,7 +692,6 @@ a.faded:hover {
 .vrteleska {
     left: 62.96vw; 
     top: 19.2vw;
-    /* width: 67px; */
     width: 3.35vw;
 }
 
@@ -754,7 +795,30 @@ a.faded:hover {
         margin-left: 82vw;
         margin-top: 8.3vw;
     }
-   
+
+    .aboutus-m {
+        margin-top: 27.4vw;
+    }
+    
+    .howwework-m {
+        margin-top: 38vw;
+        height: 18.6vw;
+    }
+    
+    .whatweworkon-m {
+        margin-top: 58.8vw;
+        height: 18.6vw;
+    }
+    
+    .howwedecide-m {
+        margin-top: 79.6vw;
+        height: 18.6vw;
+    }
+    
+    .team-m {
+        margin-top: 121.4vw;
+    }
+
     .vrteleska {
         left: 70.35vw; 
         top: 52.5vw;
@@ -820,7 +884,37 @@ a.faded:hover {
         margin-left: 82vw;
         margin-top: 9.2vw;
     }
-   
+
+    .thebank-m {
+        margin-top: 9vw;
+        margin-left: 6.2vw;
+        width: 30.2vw;
+        height: 2.9vh;
+    }
+
+    .aboutus-m {
+        margin-top: 28.4vw;
+    }
+    
+    .howwework-m {
+        margin-top: 39.6vw;
+        height: 18.6vw;
+    }
+    
+    .whatweworkon-m {
+        margin-top: 61vw;
+        height: 18.6vw;
+    }
+    
+    .howwedecide-m {
+        margin-top: 82.6vw;
+        height: 18.6vw;
+    }
+    
+    .team-m {
+        margin-top: 125.8vw;
+    }
+       
     .vrteleska {
         left: 70.45vw; 
         top: 52.6vw;
@@ -886,6 +980,36 @@ a.faded:hover {
         width: 14vw; 
         margin-left: 80vw;
         margin-top: 11.8vw;
+    }
+
+    .thebank-m {
+        margin-top: 12vw;
+        margin-left: 6.2vw;
+        width: 32.4vw;
+        height: 2.9vh;
+    }
+
+    .aboutus-m {
+        margin-top: 27.4vw;
+    }
+    
+    .howwework-m {
+        margin-top: 38vw;
+        height: 18.6vw;
+    }
+    
+    .whatweworkon-m {
+        margin-top: 58.8vw;
+        height: 18.6vw;
+    }
+    
+    .howwedecide-m {
+        margin-top: 79.6vw;
+        height: 18.6vw;
+    }
+    
+    .team-m {
+        margin-top: 121.4vw;
     }
    
     .vrteleska {
@@ -954,6 +1078,36 @@ a.faded:hover {
         margin-left: 82vw;
         margin-top: 9.2vw;
     }
+
+    .thebank-m {
+        margin-top: 9.2vw;
+        margin-left: 6.2vw;
+        width: 32.6vw;
+        height: 2.9vh;
+    }
+
+    .aboutus-m {
+        margin-top: 27.4vw;
+    }
+    
+    .howwework-m {
+        margin-top: 38vw;
+        height: 18.6vw;
+    }
+    
+    .whatweworkon-m {
+        margin-top: 69vw;
+        height: 18.6vw;
+    }
+    
+    .howwedecide-m {
+        margin-top: 79.6vw;
+        height: 18.6vw;
+    }
+    
+    .team-m {
+        margin-top: 121.4vw;
+    }
    
     .vrteleska {
         left: 70.5vw; 
@@ -1019,7 +1173,6 @@ a.faded:hover {
     .vrteleska {
         left: 63.1vw; 
         top: 19.3vw;
-        /* width: 41px; */
     }
 
     .banknota {

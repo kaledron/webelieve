@@ -17,6 +17,11 @@ for (i in showableArr) {
     document.getElementById(i).style.display = showableArr[i];
 }
 
+var showableArrM = {'bg-m':'block', 'aboutus-m':'none', 'howwework-m':'none', 'whatweworkon-m':'none', 'howwedecide-m':'none', 'team-m':'none'};
+for (i in showableArrM) {
+    document.getElementById(i).style.display = showableArrM[i];
+}
+
 function showHide(div_section) {
     for (i in showableArr) {
         if (i == 'bg') {
@@ -28,8 +33,31 @@ function showHide(div_section) {
                 document.getElementById('anime').style.display = 'block';
             }
             document.getElementById(i).style.display = 'block';
-            // document.getElementById(i).style.overflow = 'hidden';
         }
+    }
+}
+
+function showHideM(div_section) {
+    for (i in showableArrM) {
+        if (i == 'bg-m') {
+            document.getElementById('anime').style.display = 'none';
+        }
+        document.getElementById(i).style.display = 'none';
+        if (i == div_section) {
+            if (i == 'bg-m') {
+                document.getElementById('anime').style.display = 'block';
+            }
+            document.getElementById(i).style.display = 'block';
+        }
+    }
+    menuM();
+}
+
+function menuM() {
+    if (document.getElementsByClassName('menu')[0].style.visibility == 'visible' ) {
+        document.getElementsByClassName('menu')[0].style.visibility = 'hidden';
+    } else {
+        document.getElementsByClassName('menu')[0].style.visibility = 'visible';
     }
 }
 
@@ -54,14 +82,6 @@ for (var i = 0; i < imgArr.length; i++) {
     img.src = 'img/m/736/' + imgArr[i];
     img.src = 'img/m/1280/' + imgArr[i];
     img.src = 'img/m/2280/' + imgArr[i];
-}
-
-function menuM() {
-    if (document.getElementsByClassName('menu')[0].style.visibility == 'visible' ) {
-        document.getElementsByClassName('menu')[0].style.visibility = 'hidden';
-    } else {
-        document.getElementsByClassName('menu')[0].style.visibility = 'visible';
-    }
 }
 
 var anime2 = document.getElementById('anime2');
